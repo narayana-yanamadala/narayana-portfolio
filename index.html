@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narayana Yanamadala | Portfolio</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">          
+</head>
+<body>
+<canvas id="bg"></canvas>
+
+<div class="ui-layer">
+    <nav class="navbar">
+        <div class="brand-container">
+            <div class="logo-icon">N</div>
+            <div class="logo">NARAYANA YANAMADALA</div>
+        </div>
+        <div class="nav-links">
+            <a onclick="showPage('home')" id="btn-home" class="active">Home</a>
+            <a onclick="showPage('exp')" id="btn-exp">Experience</a>
+            <a onclick="showPage('proj')" id="btn-proj">Projects</a>
+            <a onclick="showPage('edu')" id="btn-edu">Education</a>
+            <a onclick="showPage('skill')" id="btn-skill">Skills</a>
+            <a onclick="showPage('cert')" id="btn-cert">Certificates</a>
+            <a onclick="showPage('contact')" id="btn-contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="section-container">
+        <section id="home" class="section active">
+            <div class="home-grid">
+                <div class="photo-frame">
+                    <img src="myphoto.jpg">
+                </div>
+                <div class="home-text">
+                    <h1 style="color:var(--primary-color); letter-spacing:4px; font-size:1rem;">FULL STACK DEVELOPER</h1>
+                    <h2>Narayana Yanamadala</h2>
+                    <p style="color:var(--text-dim); line-height:1.5; font-size:1.1rem;">Highly motivated Full-Stack Developer specializing in modern, scalable web architectures. I focus on bridging the gap between complex ideas and functional digital products through AI/ML integration and disciplined execution.</p>
+                    <a href="resume.pdf" target="_blank" class="resume-btn">DOWNLOAD RESUME</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="exp" class="section">
+            <div class="content-wrapper">
+                <h2 class="page-title">Experience</h2>
+                <a href="./certificates/internship.pdf" target="_blank" style="text-decoration:none;">
+<div class="standard-card" style="width:100%;">
+    <div class="date-badge">Virtual Internship</div>
+    <h3>Web Development Intern (AICTE & EduSkills)</h3>
+    <ul style="padding-left: 20px;">
+        <li>Developed secure web features using Django and Python authentication.</li>
+        <li>Optimized application performance through UI/UX refinements.</li>
+        <li>Managed collaborative version control via Git and GitHub.</li>
+    </ul>
+</div>
+</a>
+            </div>
+        </section>
+
+        <section id="proj" class="section">
+            <div class="content-wrapper">
+                <h2 class="page-title">Technical Projects</h2>
+                <div class="card-grid">
+                    <div class="standard-card">
+    <div class="date-badge">Web Application</div>
+    <h3>Real-Time Weather Monitoring System</h3>
+    <p>
+        Developed a responsive web application that integrates with APIs 
+        to provide real-time weather updates including temperature, humidity, 
+        and environmental conditions.
+    </p>
+</div>
+
+<div class="standard-card">
+    <div class="date-badge">AI / Computer Vision</div>
+    <h3>Face Identification System</h3>
+    <p>
+        Built using Python and OpenCV to detect and recognize human faces 
+        in real-time with efficient image processing and high accuracy.
+    </p>
+</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="edu" class="section">
+            <div class="content-wrapper">
+                <h2 class="page-title">Education</h2>
+                <div class="card-grid">
+                    <div class="standard-card">
+                        <div class="date-badge">2021 — 2025</div>
+                        <h3>B.Tech (CSE - AI & ML)</h3>
+                        <p>KIET, Kakinada. Specialization in Artificial Intelligence and Machine Learning. CGPA: 6.9</p>
+                    </div>
+                    
+<div class="standard-card">
+<div class="date-badge">2019 — 2021</div>
+<h3>Intermediate (MPC)</h3>
+<p>G.R.C Junior College, Ramachandrapuram. Completed with 79%.</p>
+</div>
+               </div>
+            </div>
+        </section>
+
+        <section id="skill" class="section">
+            <div class="content-wrapper">
+                <h2 class="page-title">Technical Arsenal</h2>
+                <div class="card-grid">
+                    <div class="standard-card">
+                        <h3>Languages</h3>
+                        <div class="pill-container">
+                            <div class="skill-pill">Python</div> 
+                            <div class="skill-pill">JavaScript</div>
+                            <div class="skill-pill">HTML/CSS</div>
+                        </div>
+                    </div>
+                    <div class="standard-card">
+                        <h3>Frameworks</h3>
+                        <div class="pill-container">
+                            <div class="skill-pill">Django</div>
+                            <div class="skill-pill">FastAPI</div>
+                            <div class="skill-pill">Flask</div>
+                            <div class="skill-pill">REST APIs</div>
+                            <div class="skill-pill">Bootstrap</div>
+                        </div>
+                    </div>
+                    <div class="standard-card">
+                        <h3>Tools & DataBases</h3>
+                        <div class="pill-container">
+                            <div class="skill-pill">AWS (S3/EC2)</div>
+                            <div class="skill-pill">Git / GitHub</div>
+                            <div class="skill-pill">MySQL</div>
+                            <div class="skill-pill">MongoDB</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="cert" class="section">
+<div class="content-wrapper">
+<h2 class="page-title">Certificates</h2>
+
+<div class="card-grid">
+
+<a href="./certificates/narayana certificate (mlwg).pdf" target="_blank" style="text-decoration:none;">
+<div class="standard-card">
+<h3>Machine Learning with Python</h3>
+<p>Infosys Springboard certification covering supervised and unsupervised learning using Python libraries.</p>
+
+</div>
+</a>
+
+<a href="certificates/python-hackerrank.pdf" target="_blank" style="text-decoration:none;">
+<div class="standard-card">
+<h3>Python Programming – HackerRank</h3>
+<p>Focused on Python problem solving and implementing efficient coding solutions.</p>
+</div>
+</a>
+
+<a href="certificates/html-greatlearning.pdf" target="_blank" style="text-decoration:none;">
+<div class="standard-card">
+<h3>Front-End Development with HTML</h3>
+<p>Great Learning certification covering semantic HTML and web page structure.</p>
+</div>
+</a>
+
+<a href="certificates/javascript-coursera.pdf" target="_blank" style="text-decoration:none;">
+<div class="standard-card">
+<h3>JavaScript Fundamentals</h3>
+<p>Coursera certification covering DOM manipulation, events, and core JavaScript concepts.</p>
+</div>
+</a>
+
+<a href="certificates/salesforce.pdf" target="_blank" style="text-decoration:none;">
+    <div class="standard-card">
+        <h3>Salesforce Certification</h3>
+        <p>
+            Earned certification in Salesforce platform, demonstrating knowledge 
+            in CRM solutions, cloud-based application development, and data management.
+        </p>
+    </div>
+</a>
+</div>
+</div>
+</section>
+
+       <section id="contact" class="section">
+<div class="content-wrapper" style="text-align: center;">
+<h2 class="page-title">Connect</h2>
+
+<div class="standard-card" style="align-items: center; max-width: 600px; margin: 0 auto;">
+
+<p style="font-size: 2rem; color: var(--primary-color); font-weight: bold; margin: 10px 0;">Email : narayanay448@gmail.com</p>
+
+<p style="font-size: 1.2rem;">
+📞 Phone: +91 9515566912
+</p>
+
+<p style="color: var(--text-dim); margin-bottom: 30px;">
+📍 Andhra Pradesh, India
+</p>
+
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=narayanay448@gmail.com&su=Portfolio%20Contact&body=Hello%20Narayana%2C%20I%20visited%20your%20portfolio."
+target="_blank"
+class="resume-btn">
+📨 Send Email
+</a>
+
+</div>
+</div>
+</section>
+    </div>
+</div>
+
+<button class="bottom-nav-btn" onclick="prevPage()" id="prevBtn">⬅</button>
+<button class="bottom-nav-btn" onclick="nextPage()" id="nextBtn">➡</button>
+<script src="script.js"></script>
+</body>
+</html>
